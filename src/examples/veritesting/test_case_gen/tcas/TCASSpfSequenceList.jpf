@@ -6,14 +6,14 @@ symbolic.method = veritesting.tcas.tcas.sym1(con#sym#sym#sym#sym#sym#sym#sym#sym
 vm.storage.class=nil
 symbolic.debug=false
 
-#listener = .symbc.SymbolicListener
+listener = .symbc.SymbolicListener
 
 symbolic.dp=z3
 
-jvm.insn_factory.class=gov.nasa.jpf.symbc.BranchSymInstructionFactory
+#jvm.insn_factory.class=gov.nasa.jpf.symbc.BranchSymInstructionFactory
 #listener = .symbc.BranchListener
 
-listener = gov.nasa.jpf.symbc.sequences.SymbolicSequenceListener
+listener = .symbc.SymbolicListener,gov.nasa.jpf.symbc.sequences.SymbolicSequenceListener
 
 branchCoverageOn=true
 targetAbsPath=${jpf-symbc}/build/examples/veritesting/tcas/tcas.class

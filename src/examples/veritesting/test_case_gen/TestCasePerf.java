@@ -1,4 +1,4 @@
-package examples.veritesting.test_case_gen;
+package veritesting.test_case_gen;
 
 public class TestCasePerf {
 
@@ -12,7 +12,14 @@ public class TestCasePerf {
 //        complexBranchCov(1,1);
 //        unoptimalDFS(1, 1);
 //        doubleLoopUnoptimalDFS(1, 1);
-        doubleLoop(1, 1);
+//        doubleLoop(1, 1);
+        dontCareCoverage(1,1);
+    }
+
+    private static void dontCareCoverage(int x, int y) {
+        if(x ==1)
+            singleBranchCov(x,y);
+
     }
 
     public static int singleBranchCov(int x, int y) {
