@@ -1,0 +1,53 @@
+<component name="libraryTable">
+  <library name="jpf">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../jpf-core/build/jpf.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/aima-core.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/automaton.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/bcel.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/choco-1_2_04.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/choco-solver-2.1.1-20100709.142532-2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/com.ibm.wala.core-1.5.5-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/com.ibm.wala.shrike-1.5.5-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/com.ibm.wala.util-1.5.5-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/com.microsoft.z3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-lang-2.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-math-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/coral.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/grappa.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/green.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hampi.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/iasolver.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jaxen.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jedis-2.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/JSAP-2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/libcvc3-5.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/libcvc3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/opt4j-2.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/org.sat4j.core.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/org.sat4j.pb.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/proteus.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/scale.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/solver.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/Statemachines.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/STPJNI.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/string.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/x10.wala_2.6.1.201706301709.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/yicesapijava.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/lib/yicesapijava.jar!/doc" />
+    </JAVADOC>
+    <NATIVE>
+      <root url="file://$PROJECT_DIR$/lib" />
+    </NATIVE>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/green.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/iasolver.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/proteus.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/solver.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/STPJNI.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/yicesapijava.jar!/" />
+    </SOURCES>
+  </library>
+</component>
